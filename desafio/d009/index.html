@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Meus Vídeos</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+ 
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+            justify-content: center;
+            max-width: 600px;
+            margin: 30px auto;
+        }
+
+        .galeria img {
+            width: 250px;
+            transition: transform 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vídeos legais para assistir</h1>
+    <div class="galeria">
+    <a href="curso-html.html" rel="next" target="_self"><img src="imagens/thumb-html.png" alt="curso de html"></a>
+    <a href="javascript.html" rel="next" target="_self"><img src="imagens/thumb-js.png" alt="curso de javascript"></a>
+    <a href="hardware.html" rel="next" target="_self"><img src="imagens/thumb-hardware.png" alt="curso de hardware"></a>
+    <a href="python.html" rel="next" target="_self"><img src="imagens/thumb-python.png" alt="curso de python"></a>
+    </div>
+</body>
+</html>
